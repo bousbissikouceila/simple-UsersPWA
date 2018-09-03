@@ -1,0 +1,14 @@
+{
+  "name": "userspwa",
+  "version": "1.0.0",
+  "description": "Create a simple PWA (Progressive Web Application)",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server -p 1337 build -c-1"
+  },
+  "keywords": [
+    "PWA"
+  ],
+  "author": "Kouceïla BOUSBISSI",
+  "license": "MIT"
+}
