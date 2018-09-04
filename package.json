@@ -4,11 +4,15 @@
   "description": "Create a simple PWA (Progressive Web Application)",
   "main": "index.js",
   "scripts": {
-    "serve": "http-server -p 1337 build -c-1"
+    "serve": "http-server -p 1337 build -c-1",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "PWA"
   ],
   "author": "Kouceïla BOUSBISSI",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }

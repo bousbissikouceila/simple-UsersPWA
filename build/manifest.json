@@ -3,7 +3,7 @@
     "short_name": "UsersPWA",
     "description": "Simple project that shows how simple is to make Progressive Web apps",
     "lang": "en-EN",
-    "start_url": "/",
+    "start_url": "https://bousbissikouceila.github.io/simple-UsersPWA/",
     "display": "standalone",
     "orientation": "any",
     "theme_color": "#29a329",
@@ -44,6 +44,5 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ],
-    "splash_pages": null
+    ]
 }
