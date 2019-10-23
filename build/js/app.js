@@ -8,7 +8,7 @@ function append(parent, el) {
 const ul = document.querySelector('#people');
 fetch('https://jsonplaceholder.typicode.com/users').then(response => response.json()).then(data => {
     let people = data;
-    return people.map(function (person) {
+    return people.map(function(person) {
         let li = createNode('li'),
             span = createNode('span');
         li.innerHTML = person.name;
